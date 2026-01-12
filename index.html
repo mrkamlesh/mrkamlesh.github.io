@@ -1,164 +1,484 @@
 <!DOCTYPE html>
-<html>
-<title>Kamlesh</title>
+<html lang="en" data-theme="dark">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="kamleshcode.png" type="image/png" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/styles.css">
-<body class="w3-light-grey">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamlesh Kumar - Technical Lead</title>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/kamleshcode.png" type="image/x-icon">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container" style="max-height: 350px;overflow: hidden;">
-          <img src="./img/kamlesh-profile.jpg" style="width: 100%;" alt="profile picture">
-          <div class="w3-display-bottomleft w3-container w3-text-black" style="width: 100%;padding: 0;">
-            <div style="background-color: #7bc5be;">
-              <h2 style="margin: 0 10px; ">Kamlesh Kumar</h2>
-            </div>
-          </div>
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <!-- Theme Switcher Button -->
+    <button class="theme-toggle-btn" data-theme-toggle aria-label="Toggle theme">
+      <ion-icon name="sunny-outline" class="sun-icon"></ion-icon>
+      <ion-icon name="moon-outline" class="moon-icon"></ion-icon>
+    </button>
+
+    <aside class="sidebar active" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://avatars.githubusercontent.com/u/8307491?v=4" alt="Kamlesh Kumar">
+        </figure>
+
+        <div class="info-content" style="padding: 5px 15px; width: 100%; text-align: center;">
+          <h1 class="name" title="Kamlesh Kumar">Kamlesh Kumar</h1>
+          <p class="title">AI Engineer, Tech Lead</p>
         </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
-            <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank">JavaScript Developer (Front-End)</a>
-          </p>
+
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mrkamleshkumar2010@gmail.com" class="contact-link"
+                style="word-break: break-all; display: block;">mrkamleshkumar2010@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/mrkamlesh" target="_blank" rel="noopener noreferrer"
+                class="contact-link">linkedin.com/in/mrkamlesh</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/mrkamlesh" target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mrkamlesh" target="_blank" rel="noopener noreferrer"
+              class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://mrkamlesh.github.io/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="globe-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Kamlesh Kumar</h2>
+          <h4 class="h4 article-title" style="font-size: 14px; font-weight: 400;">AI Engineer | Technical Lead | JavaScript | Angular | React | SAP Commerce Cloud | Spartacus Storefront | GenAI Developer | Expert in Web Technology</h4>
+        </header>
+
+
+        <section class="about-text">
           <p>
-            <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
-            <a href="https://www.google.com/maps/@28.6549354,77.2112384,11z" target="_blank">Delhi, India</a>
+            As a seasoned JavaScript Developer and Technical Lead with 8+ years of in-depth experience in web
+            technologies, I bring a wealth of expertise in frontend and full-stack development. My proficiency spans a
+            comprehensive range of frameworks and libraries, including TypeScript, Angular, React.js, Node.js, and I
+            have a robust background in designing and developing scalable e-commerce solutions using SAP Commerce Cloud
+            and Spartacus Storefront.
           </p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:mrkamleshkumar2010@gmail.com?Subject=Hello" target="_top">mrkamleshkumar2010@gmail.com</a></p>
-          <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Javascript/ Angular/ React Js</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+          <p>
+            Throughout my career, I have led high-performing technical teams, establishing coding standards, conducting
+            code reviews, and mentoring developers. My technical toolkit includes advanced knowledge in JavaScript,
+            React, Angular, NgRx, Bootstrap, and asynchronous programming, complemented by extensive experience in agile
+            methodologies and end-to-end project management. I am dedicated to continuous learning and bringing value
+            through strategic problem-solving, collaborative leadership, and delivering innovative web solutions that
+            drive measurable business impact.
+          </p>
+
+          <p>
+            Additionally, I specialize in GenAI development, building applications that combine Large Language Models
+            (LLMs) with external data sources using RAG techniques, HuggingFace, NLP, and AI Agents. This expertise
+            allows me to integrate cutting-edge AI capabilities into web applications, creating intelligent and
+            responsive user experiences that leverage the power of modern AI technologies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title" style="font-size: 16px;">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Full-Stack Web Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-size: 14px;">Full-Stack Web Development</h4>
+
+                <p class="service-item-text" style="font-size: 12px;">
+                  Developing scalable, high-performance web applications using JavaScript, TypeScript, React JS, Redux,
+                  NgRx, Next.js, Node.js, Angular, and Bootstrap. Advanced expertise in asynchronous programming,
+                  debugging, testing, and modern frameworks. Specialized in SAP Commerce Cloud and Spartacus Storefront
+                  for enterprise e-commerce solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="GenAI & RAG Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-size: 14px;">GenAI & RAG Development</h4>
+
+                <p class="service-item-text" style="font-size: 12px;">
+                  Building intelligent web applications that combine Large Language Models (LLMs) with external data
+                  sources using RAG techniques, HuggingFace, NLP, and AI Agents. Integrating AI capabilities into web
+                  applications to create responsive, accurate, and fact-grounded user experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="DevOps & Cloud Infrastructure icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-size: 14px;">DevOps & Cloud Infrastructure</h4>
+
+                <p class="service-item-text" style="font-size: 12px;">
+                  Deploying and managing cloud infrastructure on Azure, AWS, and DigitalOcean with CI/CD pipelines,
+                  Docker containers, and automated deployment workflows.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Technical Leadership icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="font-size: 14px;">Technical Leadership</h4>
+
+                <p class="service-item-text" style="font-size: 12px;">
+                  Leading high-performing teams through code reviews, mentorship, and process improvement. Establishing
+                  coding standards, managing end-to-end projects using agile methodologies, and fostering collaborative
+                  environments that drive innovation and excellence.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume active" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
           </div>
-          
-          <p>Ionic/ Capacitor</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master in Computer Application</h4>
+
+              <span>2011 — 2014</span>
+
+              <p class="timeline-text">
+                Dr. Babasaheb Ambedkar Marathwada University, University Campus, Chhatrapati Sambhajinagar - 431004. Maharashtra
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Computer Application</h4>
+
+              <span>2008 — 2011</span>
+
+              <p class="timeline-text">
+                Magadh University, Arcade Business College, Patna - 800016. Bihar
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">JavaScript Developer (Front-End)</h4>
+
+              <span>January 2015 — Present</span>
+
+              <p class="timeline-text">
+                Highly skilled JavaScript developer with 8+ years of extensive experience in frontend technologies.
+                Expertise spans TypeScript, Angular, and React.js with a proven track record of delivering high-quality,
+                scalable, and user-centric web applications. Lead the design and development of scalable, high-performance
+                web applications, ensuring technical solutions are robust, maintainable, and aligned with industry best
+                practices. Establish and enforce coding standards across the team, conducting regular code reviews to
+                maintain high-quality code. Work closely with stakeholders to define project requirements and create
+                detailed technical plans. Provide mentorship to junior developers and build cohesive teams, promoting a
+                positive work culture. Regularly review and refine development processes and workflows to enhance team
+                efficiency and software quality.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GenAI Developer</h4>
+
+              <span>2025 — Present</span>
+
+              <p class="timeline-text">
+                Building intelligent web applications that integrate Large Language Models (LLMs) with external data
+                sources using RAG techniques, HuggingFace, NLP, and AI Agents. Combining AI capabilities with web
+                development expertise to create innovative, responsive solutions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SAP Commerce Cloud, CX-Spartacus Developer</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                Builds and customizes headless e-commerce storefronts for SAP Commerce Cloud.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ionic Developer</h4>
+
+              <span>2016 — 2019</span>
+
+              <p class="timeline-text">
+                Create apps for iOS, Android, and the web from one codebase to utilize Web Technologies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PHP Developer</h4>
+
+              <span>2014 — 2016</span>
+
+              <p class="timeline-text">
+                Develop and maintain PHP applications for web development.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+
+
+          <div class="content-card" style="padding: 25px;">
+            <div style="margin-bottom: 20px;">
+              <h4 class="h4" style="margin-bottom: 10px; color: var(--orange-yellow-crayola);">Web:</h4>
+              <p class="timeline-text" style="margin-bottom: 15px;">JavaScript, TypeScript, React JS, Redux, NgRx, Next.js, Angular, Bootstrap, Asynchronous Programming (Advanced), Debugging and Testing</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+              <h4 class="h4" style="margin-bottom: 10px; color: var(--orange-yellow-crayola);">E-commerce:</h4>
+              <p class="timeline-text" style="margin-bottom: 15px;">SAP Commerce Cloud, Spartacus Storefront, SAP Hybrids Technology</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+              <h4 class="h4" style="margin-bottom: 10px; color: var(--orange-yellow-crayola);">AI:</h4>
+              <p class="timeline-text" style="margin-bottom: 15px;">LLM, GenAI, HuggingFace, NLP, RAG, AI Agents</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+              <h4 class="h4" style="margin-bottom: 10px; color: var(--orange-yellow-crayola);">Mobile:</h4>
+              <p class="timeline-text" style="margin-bottom: 15px;">React Native, Flutter, Ionic/Cordova</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+              <h4 class="h4" style="margin-bottom: 10px; color: var(--orange-yellow-crayola);">Backend/DB:</h4>
+              <p class="timeline-text" style="margin-bottom: 15px;">Node.js, Python, Java, SQL, MongoDB, Firebase</p>
+            </div>
+
+            <div>
+              <h4 class="h4" style="margin-bottom: 10px; color: var(--orange-yellow-crayola);">DevOps:</h4>
+              <p class="timeline-text">Azure, AWS, CI/CD, DigitalOcean, Docker</p>
             </div>
           </div>
-          
-          <p>SAP Commerce Cloud</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Spartacus Storefront</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
 
-          
-          <p>NgRx Store</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
-          <hr>
+        </section>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Education</b></p>
-          <p>Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar -431004, Maharashtra, India </p>
-          <p>Master in computer application</p>
-          <p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2014</p>
-          <hr>
+      </article>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>Hindi (Native)</p>
-          <p>English (Fluent)</p>
-          <br>
-
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
     </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        
-        <div class="w3-container">
-          <h2 class="w3-text-grey w3-padding-16">
-            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i> Front-End Developer </h2>
-          
-            <p>Technical Lead | JavaScript | Angular | React | SAP Commerce Cloud | Spartacus Storefront | Expert in Web Technology | Delivering Innovative Solutions & Leading High-Performing Teams</p>
+  </main>
 
-          <div class="w3-container">
-            <h5><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i> Professional Summary</h5>
-            
-            <p>As a seasoned Technical Lead with 8+ years of in-depth experience in web technologies, I bring a wealth of expertise in JavaScript and frontend development. My proficiency spans a range of frameworks and libraries, including TypeScript, Angular, and React.js, and I have a robust background in designing and developing e-commerce solutions using SAP Commerce Cloud and Spartacus Storefront.</p>
 
-            <p>Throughout my career, I have collaborated with various technical teams, adapting swiftly to new challenges and effectively contributing to team goals. My technical toolkit includes advanced knowledge in JavaScript, React, Angular, Node.js, and Bootstrap, complemented by experience in agile methodologies and end-to-end project management. I am dedicated to continuous learning and bringing value through strategic problem-solving and collaborative leadership.</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>JavaScript Developer (Front-End) </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>I am a highly skilled JavaScript developer with 8+ years of extensive experience in frontend technologies. My expertise spans a variety of frameworks and libraries, including TypeScript, Angular, and React.js. I have a proven track record of delivering high-quality, scalable, and user-centric web applications, consistently meeting project goals and exceeding client expectations.</p>          
 
-          <ul style="list-style:square" class="list-disc list-inside mt-2 text-gray-700">
-              <li> I lead the design and development of scalable, high-performance web applications, utilizing my expertise in JavaScript, TypeScript, Angular, React.js, and other relevant technologies. I ensure that our technical solutions are robust, maintainable, and aligned with industry best practices.</li>
-              <li>I establish and enforce coding standards across the team, conducting regular code reviews to maintain high-quality code. I am committed to continuous improvement, implementing practices that enhance code readability, efficiency, and security.</li>
-              <li>
-                I work closely with stakeholders to define project requirements and create detailed technical plans. I develop project timelines, allocate resources, and manage tasks to ensure timely delivery of high-quality software solutions.
-              </li>
-              <li>
-                I provide mentorship to junior developers, offering support and guidance to help them grow their technical skills and navigate challenges. I foster a collaborative environment that encourages knowledge sharing and professional development.
-              </li>
-              <li>I build and maintain a cohesive team, promoting a positive work culture and addressing any interpersonal or technical conflicts that arise. I am dedicated to creating an environment where team members feel valued and motivated.
-              </li>
-              <li>
-                I regularly review and refine development processes and workflows to enhance team efficiency and software quality. I seek out opportunities for process improvements and implement changes to drive better outcomes.
-              </li>
-          </ul>
-        </div>
 
-        <!-- Technical Skills section -->
-        <h5 class="w3-opacity"><b>Technical Skills: </b></h5>
-        <p><b>Asynchronous Programming (Advanced), Spartacus Storefront , SAP Commerce Cloud, SAP hybrids technology , Angular, React.js, NgRx, Bootstrap, Debugging and Testing</b></p>
-        
-        <!-- Passion & Growth Section -->
-        <h5 class="w3-opacity"><b>Passion & Growth: </b></h5>
-        <p>Technology is constantly evolving, and I'm dedicated to staying updated with the latest trends and best practices in full-stack development. Whether it's attending tech meetups, participating in online courses, or contributing to open-source projects, I'm always seeking opportunities to expand my knowledge and refine my skills.</p>
-        
-      </div>
 
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <!-- <p>Find me here also.</p> -->
-  <div class="icons-social">
-    <a target="_blank" href="skype:mrkamleshkumar@hotmail.com?chat"><i class="fa fa-skype"></i></a>
-    <a target="_blank" href="https://github.com/mrkamlesh"><i class="fa fa-github"></i></a>
-    <a target="_blank" href="https://stackoverflow.com/users/3786343/kamlesh-kumar"><i class="fa fa-stack-overflow"></i></a>
-    <a target="_blank" href="https://linkedin.com/in/mrkamlesh/"><i class="fa fa-linkedin"></i></a>
-  </div>
-</footer>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
